@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pomodro timer</title>
+  </head>
+  <body>
+    <h1>Pomodoro Application</h1>
+    <div class="middle">
+      <div class="middle-left">
+        <p id="work" class="label">Work</p>
+        <p id="break" class="label">Break</p>
+        <p id="cycles" class="label">Cycles</p>
+        <!--Work Timer-->
+        <div id="work-timer" class="timer">
+          <p id="w-minutes">1</p>
+          <p class="semicolon">:</p>
+          <p id="w-seconds">00</p>
+        </div>
+
+        <!--Cycle Counter-->
+        <p id="counter" class="timer">0</p>
+
+        <!--Break Timer-->
+        <div id="break-timer" class="timer">
+          <p id="b-minutes">1</p>
+          <p class="semicolon">:</p>
+          <p id="b-seconds">00</p>
+        </div>
+        <!-- buttons -->
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+      </div>
+      <div class="middle-right">
+        <h2># of Cycles</h2>
+        <ul class="counter-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
