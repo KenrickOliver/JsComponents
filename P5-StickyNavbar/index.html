@@ -4,18 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== BOXICONS ====================-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Sticky Navbar</title>
   </head>
   <body>
-    <nav class="nav">
-      <div class="container">
-        <h1 class="logo"><a href="/index.html">My Site</a></h1>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/index.html">My Site</a>
+      </div>
+      <a href="#" class="toggle__button"
+        ><i class="bx bx-menu toggle__icon"></i
+      ></a>
+      <div class="navbar__links">
         <ul>
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Other</a></li>
         </ul>
       </div>
     </nav>
