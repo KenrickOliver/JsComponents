@@ -56,7 +56,7 @@ const clockText = () => {
   }
   //Os before minutes
   if (mm < 10) {
-    mm = `o${mm}`;
+    mm = `0${mm}`;
   }
 
   //Show am or pm

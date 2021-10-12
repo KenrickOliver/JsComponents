@@ -222,7 +222,7 @@ a {
 
 .clock__date {
   text-align: center;
-  font-size: var(--small-font-size);
+  font-size: var(--font-medium);
   font-weight: var(--font-medium);
 }
 
@@ -234,5 +234,17 @@ a {
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
     --tiny-font-size: 0.75rem;
+  }
+}
+
+/* for differnt view ports */
+@media screen and (min-width: 968px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clock__logo {
+    margin-bottom: 3rem;
   }
 }
